@@ -14,7 +14,6 @@ Run the code for the segfault:
 ```
 python segfault.py
 
-<arborize.builders._neuron.NeuronModel object at 0x7f13a7f30df0>
 numprocs=1
 [LAPTOP-JF6T3PSU:26393] *** Process received signal ***
 [LAPTOP-JF6T3PSU:26393] Signal: Segmentation fault (11)
@@ -68,5 +67,4 @@ Run again without issues:
 python segfault.py
 
 numprocs=1
-<arborize.builders._neuron.NeuronModel object at 0x7f209751ab50>
 ```
